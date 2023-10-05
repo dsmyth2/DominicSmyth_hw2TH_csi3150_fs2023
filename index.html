@@ -6,16 +6,30 @@
     <title>Dominic's Portfolio</title>
     <!--link to favicon-->
     <link rel="shortcut icon" type="image/x-icon" href="img/balloon.png" />
+    <!--CSS Link-->
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
     <!--header-->
     <header id="page_header">
       <!--navigation bar-->
       <div id="navbarContainer">
-        <nav id="navbar">
-          <a href="index.html" class="navOption">Home</a>
-          <a href="html/resume.html" class="navOption">Resume</a>
-          <a href="html/funFacts.html" class="navOption">Fun Facts</a>
+        <nav class="navbar">
+          <div class="logo">LOGO</div>
+          <ul class="nav-links">
+            <!--Hamburger icon + checkbox-->
+            <input type="checkbox" id="checkbox_toggle" />
+            <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+
+            <!--Menu-->
+            <div class="menu">
+              <li><a href="index.html" class="navOption">Home</a></li>
+              <li><a href="html/resume.html" class="navOption">Resume</a></li>
+              <li>
+                <a href="html/funFacts.html" class="navOption">Fun Facts</a>
+              </li>
+            </div>
+          </ul>
         </nav>
       </div>
       <!--Page title / header-->
