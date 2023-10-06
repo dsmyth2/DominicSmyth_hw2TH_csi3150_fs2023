@@ -9,74 +9,79 @@
     <!--CSS Link-->
     <link rel="stylesheet" href="css/style.css" />
   </head>
-  <body>
-    <!--header-->
-    <header id="page_header">
-      <!--navigation bar-->
-      <div id="navbarContainer">
-        <nav class="navbar">
-          <div class="logo">LOGO</div>
-          <ul class="nav-links">
-            <!--Hamburger icon + checkbox-->
-            <input type="checkbox" id="checkbox_toggle" />
-            <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+  <body id="page_container">
+    <section id="content_wrap">
+      <!--header-->
+      <header id="page_header">
+        <!--navigation bar-->
+        <div id="navbarContainer">
+          <nav class="navbar">
+            <div class="logo">LOGO</div>
+            <ul class="nav-links">
+              <!--Hamburger icon + checkbox-->
+              <input type="checkbox" id="checkbox_toggle" />
+              <label for="checkbox_toggle" class="hamburger">&#9776;</label>
 
-            <!--Menu-->
-            <div class="menu">
-              <li><a href="index.html" class="navOption">Home</a></li>
-              <li><a href="html/resume.html" class="navOption">Resume</a></li>
-              <li>
-                <a href="html/funFacts.html" class="navOption">Fun Facts</a>
-              </li>
-            </div>
-          </ul>
-        </nav>
-      </div>
+              <!--Menu-->
+              <div class="menu">
+                <li><a href="index.html" class="navOption">Home</a></li>
+                <li><a href="html/resume.html" class="navOption">Resume</a></li>
+                <li>
+                  <a href="html/funFacts.html" class="navOption">Fun Facts</a>
+                </li>
+              </div>
+            </ul>
+          </nav>
+        </div>
+      </header>
       <!--Page title / header-->
       <div id="page_title">
         <h1>Dominic Smyth's Portfolio</h1>
       </div>
-    </header>
-    <!--image and quote-->
-    <div id="head_image_container">
-      <img
-        src="img/resumePhoto.png"
-        alt="Picture of Dominic Smyth"
-        width="200"
-        height="200"
-      />
-      <blockquote>
-        "Sometimes you gotta close a door to open a window."
-      </blockquote>
-    </div>
-    <!--about me section-->
-    <div id="about_me_container">
-      <section id="about_me">
-        <h2>About Me</h2>
-        <p>
-          Hello! My name is Dominic, and I'm currently a senior at Oakland
-          University. I grew up in the Rochester Hills area, and have lived in
-          Michigan my whole life. I currently work at the Oakland Gear Shop. I
-          have no professional experience in the computer science field, but I'm
-          hoping to get an internship related to web and/or app design. You can
-          learn some more about me on my
-          <a href="html/resume.html" class="navOption">Resume</a> page or on my
-          <a href="html/funFacts.html" class="navOption">Fun Facts</a> page!
-        </p>
-      </section>
-    </div>
-    <hr />
-    <!--progress to degree-->
-    <section id="degree_progress">
-      <div id="degree_progress_container">
-        <h2>Progress to degree:</h2>
-        <progress id="degree_progress_bar" value="91" max="100">91%%</progress>
-        <label for="degree_progress_bar">91% Complete</label>
+      <!--image and quote-->
+      <div id="head_image_container">
+        <img
+          src="img/resumePhoto.png"
+          alt="Picture of Dominic Smyth"
+          width="200"
+          height="200"
+        />
+        <blockquote>
+          "Sometimes you gotta close a door to open a window."
+        </blockquote>
       </div>
+      <!--about me section-->
+      <div id="about_me_container">
+        <section id="about_me">
+          <h2>About Me</h2>
+          <p>
+            Hello! My name is Dominic, and I'm currently a senior at Oakland
+            University. I grew up in the Rochester Hills area, and have lived in
+            Michigan my whole life. I currently work at the Oakland Gear Shop. I
+            have no professional experience in the computer science field, but
+            I'm hoping to get an internship related to web and/or app design.
+            You can learn some more about me on my
+            <a href="html/resume.html" class="navOption">Resume</a> page or on
+            my
+            <a href="html/funFacts.html" class="navOption">Fun Facts</a> page!
+          </p>
+        </section>
+      </div>
+      <!--progress to degree-->
+      <section id="degree_progress">
+        <hr />
+        <div id="degree_progress_container">
+          <h2>Progress to degree:</h2>
+          <progress id="degree_progress_bar" value="91" max="100">
+            91%%
+          </progress>
+          <label for="degree_progress_bar">91% Complete</label>
+        </div>
+      </section>
     </section>
     <!--footer-->
-    <hr />
     <footer>
+      <hr />
       <p>&copy; 2023 Dominic Smyth. All rights reserved.</p>
       <a href="mailto:domsmyth2002@gmail.com">Email Me</a>
     </footer>
