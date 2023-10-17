@@ -5,18 +5,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Fun Facts</title>
     <link rel="shortcut icon" type="image/x-icon" href="img/balloon.png" />
+    <!--CSS Link-->
+    <link rel="stylesheet" href="../css/style.css" />
   </head>
-  <body>
+  <body id="page_container">
+    <section id="content_wrap">
     <!-- header section -->
     <header id="page_header">
-      <!-- navbar section -->
-      <div id="navbar_container">
-        <nav id="navbar">
-          <a href="../index.html" class="navOption">Home</a>
-          <a href="../html/resume.html" class="navOption">Resume</a>
-          <a href="../html/funFacts.html" class="navOption">Fun Facts</a>
+      <!-- navigation bar -->
+      <div id="navbarContainer">
+        <nav class="navbar">
+          <nav class="navbar">
+            <div class="logo">
+              <img
+                src="..\img\Untitled-basquiat-1981.jpg"
+                alt="Logo featuring Jean-Michael Basquiat's 1981 painting 'Untitled (Fishing)'"
+                width="60px"
+              />
+            </div>
+            <ul class="nav-links">
+              <!--Hamburger icon + checkbox-->
+              <input type="checkbox" id="checkbox_toggle" />
+              <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+
+              <!--Menu-->
+              <div class="menu">
+                <li><a href="../index.html" class="navOption">Home</a></li>
+                <li><a href="../html/resume.html" class="navOption">Resume</a></li>
+                <li><a href="../html/funFacts.html" class="navOption">Fun Facts</a></li>
+              </div>
+            </ul>
         </nav>
       </div>
+    </header>
       <!-- page title section -->
       <div id="page_title">
         <h1>Some fun facts about me</h1>
@@ -99,6 +120,14 @@
           >
         </div>
       </article>
-    </header>
+    </section>
+    <!--footer-->
+    <footer>
+      <hr />
+      <p>
+        &copy; 2023 Dominic Smyth. All rights reserved.
+        <a href="mailto:domsmyth2002@gmail.com">Email Me</a>
+      </p>
+    </footer>
   </body>
 </html>
